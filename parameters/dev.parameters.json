@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "environmentType": {
-            "value": "nonprod"
+            "value": "uat"
         },
         "postgreSQLServerName": {
-            "value": "aguadamillas-dbsrv-dev"
+            "value": "claramouzannar-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "aguadamillas-db-dev"
+            "value": "claramouzannar-db-uat"
         },
         "appServicePlanName": {
-            "value": "aguadamillas-asp-dev"
+            "value": "claramouzannar-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "aguadamillas-be-dev"
+            "value": "claramouzannar-be-uat"
         },
         "appServiceAppName": {
-            "value": "aguadamillas-fe-dev"
+            "value": "claramouzannar-fe-uat"
         },
         "location": {
             "value": "North Europe"
