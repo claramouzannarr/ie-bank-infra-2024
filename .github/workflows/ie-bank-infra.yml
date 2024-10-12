@@ -1,10 +1,10 @@
 name: ie-bank-infra
-  
+
 on:
   workflow_dispatch: #Allows you to manually trigger the workflow from the GitHub Actions tab.
   pull_request:
       branches:
-        -main
+        - main
   push:
       branches:
         - '*'
