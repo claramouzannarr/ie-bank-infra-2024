@@ -4,7 +4,7 @@ on:
   workflow_dispatch: #Allows you to manually trigger the workflow from the GitHub Actions tab.
   pull_request:
       branches:
-        - main
+        - infra-updates
   push:
       branches:
         - '*'
@@ -15,7 +15,7 @@ env:
   RESOURCE_GROUP_UAT: BCSAI2024-DEVOPS-STUDENTS-A-UAT
   RESOURCE_GROUP_DEV: BCSAI2024-DEVOPS-STUDENTS-A-DEV
   SUBSCRIPTION_ID: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
-  USER_ALIAS: jafarobeidat
+  USER_ALIAS: claramouzannar
 
 jobs:
   build:
